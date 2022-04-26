@@ -8,7 +8,7 @@ import random
 import torchvision.datasets as dset
 from PIL import Image
 
-
+###
 class OmniglotTrain(Dataset):
 
     def __init__(self, dataPath, transform=None):
